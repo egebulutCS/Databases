@@ -1,0 +1,1 @@
+SELECT AVG(IFNULL((SELECT COUNT(cd.releasedBy) FROM CD_CD cd WHERE label.labelName = cd.releasedBy GROUP BY label.labelName),0)) AS averageReleases FROM CD_RecordLabel label

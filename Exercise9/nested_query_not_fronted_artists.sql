@@ -1,0 +1,1 @@
+SELECT CD_Artist.artistName FROM CD_Artist WHERE CD_Artist.idNumber NOT IN (SELECT CD_CD.isFrontedBy FROM CD_CD WHERE CD_CD.isFrontedBy IS NOT NULL) GROUP BY CD_Artist.artistName ORDER BY CD_Artist.artistName;

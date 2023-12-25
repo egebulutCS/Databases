@@ -1,0 +1,1 @@
+SELECT CD_CD.releasedBy AS label, COUNT(releasedBy) AS numOfReleases FROM CD_CD GROUP BY releasedBy ORDER BY numOfReleases DESC, label ASC;

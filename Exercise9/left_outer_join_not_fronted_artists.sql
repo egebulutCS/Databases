@@ -1,0 +1,1 @@
+SELECT artist.artistName FROM CD_Artist artist LEFT OUTER JOIN CD_CD cd ON artist.idNumber = cd.isFrontedBy WHERE cd.isFrontedBy IS NULL GROUP BY artist.artistName ORDER BY artist.artistName;

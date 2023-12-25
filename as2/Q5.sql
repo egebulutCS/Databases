@@ -1,0 +1,1 @@
+SELECT COUNT(MoSpo_RacingTeam.teamName) AS numberTeams FROM MoSpo_RacingTeam;

@@ -1,0 +1,1 @@
+INSERT INTO CD_CD (title, catalogNo, publicationDate, releasedBy, isFrontedBy, rating) VALUES ("Magic", 42, "2010-09-02", "Columbia", 1, "excellent");

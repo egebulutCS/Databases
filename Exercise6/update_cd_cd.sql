@@ -1,0 +1,1 @@
+UPDATE CD_CD SET publicationDate = "2008-08-03" WHERE catalogNo = 42;

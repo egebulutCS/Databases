@@ -1,0 +1,1 @@
+INSERT INTO CD_Artist (artistName, dateOfBirth, webpage) VALUES ("Bruce Springsteen", DATE "1949-09-23", "www.brucespringsteen.net");

@@ -1,0 +1,1 @@
+SELECT track.trackTitle, artist.artistName FROM CD_Track track JOIN CD_Performs perform ON (track.trackNo,track.cdNo) = (perform.trackNo,perform.cdNo) JOIN CD_Artist artist ON perform.artistId = artist.idNumber ORDER BY trackTitle, artistName;

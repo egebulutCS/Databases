@@ -1,0 +1,1 @@
+INSERT INTO CD_Track VALUES (4,12,'Milano','1:59:14');

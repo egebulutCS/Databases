@@ -1,0 +1,7 @@
+CREATE TABLE CD_Genre (
+genre VARCHAR(20),
+catalogNo INT(10),
+PRIMARY KEY (genre, catalogNo),
+FOREIGN KEY (catalogNo) REFERENCES CD_CD(catalogNo) ON DELETE CASCADE ON UPDATE CASCADE
+);
+

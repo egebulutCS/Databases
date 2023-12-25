@@ -1,0 +1,1 @@
+DELETE FROM CD_RecordLabel WHERE labelname = 'Atlantic Records';

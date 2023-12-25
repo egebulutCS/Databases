@@ -1,0 +1,1 @@
+ALTER TABLE MoSpo_HallOfFame ADD driverWeight FLOAT(3,1);

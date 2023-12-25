@@ -1,0 +1,1 @@
+SELECT rl.labelName AS label, COUNT(cd.releasedBy) AS numOfReleases FROM CD_CD cd RIGHT OUTER JOIN CD_RecordLabel rl ON cd.releasedBy = rl.labelName GROUP BY rl.LabelName ORDER BY numOfReleases DESC, label ASC;

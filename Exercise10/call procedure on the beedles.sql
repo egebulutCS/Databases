@@ -1,0 +1,1 @@
+CALL setAllFavourite('The Beedles')

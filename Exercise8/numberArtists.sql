@@ -1,0 +1,1 @@
+SELECT COUNT(artistName) AS numberArtists FROM CD_Artist;

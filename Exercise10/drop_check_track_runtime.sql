@@ -1,0 +1,1 @@
+DROP TRIGGER check_track_runtime

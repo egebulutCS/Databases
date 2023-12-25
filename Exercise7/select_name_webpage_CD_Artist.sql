@@ -1,0 +1,1 @@
+SELECT artistName, webpage FROM CD_Artist;

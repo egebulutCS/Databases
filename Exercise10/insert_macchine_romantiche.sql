@@ -1,0 +1,1 @@
+INSERT INTO CD_Track VALUES (2,12,"Macchine romantiche",'00:03:14');

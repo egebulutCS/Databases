@@ -1,0 +1,1 @@
+DELETE FROM MoSpo_Driver WHERE MoSpo_Driver.driverLastname = "Senna" AND MoSpo_Driver.driverFirstname = "Ayrton";

@@ -1,0 +1,1 @@
+SELECT CD_CD.title, CD_Artist.artistName FROM CD_CD INNER JOIN CD_Artist ON CD_CD.isFrontedBy = CD_Artist.idNumber;

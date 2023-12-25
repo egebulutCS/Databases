@@ -1,0 +1,1 @@
+DELETE FROM CD_Track WHERE CD_Track.trackTitle = "Macchine romantiche";

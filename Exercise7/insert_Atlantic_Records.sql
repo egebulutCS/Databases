@@ -1,0 +1,1 @@
+INSERT INTO CD_RecordLabel (labelname,webpage) VALUES ('Atlantic Records','www.thisismuchtoolonganaddresssonobodywilleverrememberitproperlywillthey.com');

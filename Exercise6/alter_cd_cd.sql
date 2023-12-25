@@ -1,0 +1,1 @@
+ALTER TABLE CD_CD ADD rating ENUM('favourite', 'excellent', 'good', 'so-so', 'poor', 'rubbish');

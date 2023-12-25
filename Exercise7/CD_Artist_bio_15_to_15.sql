@@ -1,0 +1,1 @@
+SELECT CONCAT(LEFT(CD_Artist.bio,15),"...",RIGHT(CD_Artist.bio,15)) AS ShortBio FROM CD_Artist; -- WHERE CD_Artist.bio IS NOT NULL

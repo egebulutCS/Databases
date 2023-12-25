@@ -1,0 +1,8 @@
+CREATE TABLE CD_Track (
+trackNo INT(10),
+cdNo INT(10),
+trackTitle VARCHAR(20) NOT NULL,
+runtime TIME,
+PRIMARY KEY (trackNo,cdNo),
+FOREIGN KEY (cdNo) REFERENCES CD_CD(catalogNo) ON DELETE CASCADE ON UPDATE CASCADE
+);

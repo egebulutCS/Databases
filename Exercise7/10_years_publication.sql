@@ -1,0 +1,1 @@
+SELECT CD_Artist.artistName FROM CD_CD INNER JOIN CD_Artist ON CD_CD.isFrontedBy = CD_Artist.idNumber WHERE CD_CD.publicationDate BETWEEN '2008/11/14' AND '2018/11/14' ORDER BY CD_Artist.artistName ASC;
